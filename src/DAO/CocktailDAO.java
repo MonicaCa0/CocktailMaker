@@ -1,4 +1,10 @@
 package DAO;
 
-public class CocktailDAO {
+import java.util.List;
+
+public interface CocktailDAO {
+
+    List<String> getAllCocktails();
+
+
 }
